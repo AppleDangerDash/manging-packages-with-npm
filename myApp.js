@@ -52,6 +52,7 @@ var jsonResponse = {"message":"Hello json"};
 
 
 /** 8) Chaining middleware. A Time server */
+
 const middleware = (req, res, next) => {
     req.time = new Date().toString();
     next();
@@ -62,7 +63,7 @@ const middleware = (req, res, next) => {
       time: req.time
     });
   });
-  
+
 // function getTheCurrentTimeString() {
 //     return new Date().toString();
 // }
