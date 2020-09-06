@@ -2,6 +2,7 @@
 	"author": "mike",
 	"description":"A web app that gives me the knowledge to make node js apps",
 	"name": "fcc-learn-npm-package-json",
+	"license": "MIT",
 	"keywords":["freecodecamp","mike","bobbbasds"],
 	"dependencies": {
 		"express": "^4.14.0"
